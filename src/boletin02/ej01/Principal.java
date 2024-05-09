@@ -18,15 +18,19 @@ public class Principal {
 				String[] array = l.split(" ");
 				
 				for (String n : array) {
+					// Sumamos los números
 					suma += Double.parseDouble(n);
+					
+					// Aumentamos el contador
 					contador++;
 				}
 				
 			}
 			
-
+			// Calculamos la media
 			media = suma/contador;
 			
+			// Mostramos los datos por pantalla
 			System.out.println("Suma: " + suma + " Media: " + media);
 			
 		} catch (FileNotFoundException e) {
