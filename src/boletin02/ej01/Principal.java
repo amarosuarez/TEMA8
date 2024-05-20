@@ -12,7 +12,7 @@ public class Principal {
 		
 		// Creamos un objeto FileReader
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("src\\boletin02\\ej01\\numerosReales.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("src/boletin02/ej01/numerosReales.txt"));
 			
 			while ((l = reader.readLine()) != null) {
 				String[] array = l.split(" ");
