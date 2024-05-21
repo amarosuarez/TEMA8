@@ -26,7 +26,7 @@ public class Principal {
 		BufferedWriter in = null;
 		
 		try {
-			sc = new Scanner(new FileReader("src/boletin02/ej06/numerosDesordenados.txt"));
+			sc = new Scanner(new FileReader("src\\boletin02\\ej06\\numerosDesordenados.txt"));
 			
 			// Ejecutamos mientras haya números
 			while (sc.hasNextInt()) {
@@ -41,7 +41,7 @@ public class Principal {
 			Collections.sort(listaNumeros);
 			
 			// Escribimos la lista en un nuevo archivo
-			in = new BufferedWriter(new FileWriter("src/boletin02/ej06/numerosOrdenados.txt"));
+			in = new BufferedWriter(new FileWriter("src\\boletin02\\ej06\\numerosOrdenados.txt"));
 			
 			for (int num : listaNumeros) {
 				in.write(String.valueOf(num));

@@ -19,7 +19,7 @@ public class Principal {
 		// Creamos el Scanner
 		Scanner sc = null;
 		try {
-			sc = new Scanner(new FileReader("src/boletin02/ej02/Enteros.txt"));
+			sc = new Scanner(new FileReader("src\\boletin02\\ej02\\Enteros.txt"));
 						
 			// Ejecutamos mientras siga habiendo un número
 			while (sc.hasNextInt()) {

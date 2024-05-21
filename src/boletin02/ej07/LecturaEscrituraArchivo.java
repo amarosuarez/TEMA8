@@ -25,7 +25,7 @@ public class LecturaEscrituraArchivo {
 		Contacto contacto;
 		
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("src/boletin02/ej07/archivo/agenda.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("src\\boletin02\\ej07\\archivo\\agenda.txt"));
 			
 			while ((l = reader.readLine()) != null) {
 				String[] data = l.split(":");
@@ -52,7 +52,7 @@ public class LecturaEscrituraArchivo {
 		BufferedWriter in = null;
 		
 		try {
-			in = new BufferedWriter(new FileWriter("src/boletin02/ej07/archivo/agenda.txt"));
+			in = new BufferedWriter(new FileWriter("src\\boletin02\\ej07\\archivo\\agenda.txt"));
 			
 			// Recorremos todos por si hay posiciones nulas entre medio
 			for (Contacto contacto : ArrayAgenda.arrayContacto) {

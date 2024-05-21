@@ -19,7 +19,7 @@ public class EscrituraArchivo {
 		BufferedWriter in = null;
 
 		try {
-			in = new BufferedWriter(new FileWriter("src/boletin02/ej08/archivo/registros.txt", true));
+			in = new BufferedWriter(new FileWriter("src\\boletin02\\ej08\\archivo\\registros.txt", true));
 
 			String fecha = reg.getFecha();
 			String max = reg.getTempMax() + "";
@@ -61,7 +61,7 @@ public class EscrituraArchivo {
 		Registro reg;
 		
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("src/boletin02/ej08/archivo/registros.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("src\\boletin02\\ej08\\archivo\\registros.txt"));
 
 			while ((l = reader.readLine()) != null) {
 				String[] data = l.split(",");

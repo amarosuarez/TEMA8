@@ -22,7 +22,7 @@ public class Principal {
 		String l = "";
 		
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("src/boletin02/ej03/Alumnos.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("src\\boletin02\\ej03\\Alumnos.txt"));
 
 			while ((l = reader.readLine()) != null) {
 				String[] array = l.split(" ");

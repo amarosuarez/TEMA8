@@ -19,7 +19,7 @@ public class Principal {
 		BufferedWriter in = null;
 		
 		try {
-			in = new BufferedWriter(new FileWriter("src/boletin02/ej04/texto.txt"));
+			in = new BufferedWriter(new FileWriter("src\\boletin02\\ej04\\texto.txt"));
 			
 			do {
 				System.out.println("Escribe la línea " + numLinea + " (Para acabar escribe fin)");

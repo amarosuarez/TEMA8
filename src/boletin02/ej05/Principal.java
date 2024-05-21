@@ -23,7 +23,7 @@ public class Principal {
 		BufferedWriter in = null;
 		
 		try {
-			in = new BufferedWriter(new FileWriter("src/boletin02/ej05/usuarios.txt", true));
+			in = new BufferedWriter(new FileWriter("src\\boletin02\\ej05\\usuarios.txt", true));
 			
 			do {
 				// Le pedimos los datos al usuario
